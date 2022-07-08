@@ -49,3 +49,9 @@ Virtual DOM works in three steps:
 2. Now, the difference between the previous DOM representation and the new DOM is calculated.
 3. Once the calculations are completed, the real DOM updated with only those things which are changed.
 
+What are the differences between functional and class components?
+Before the introduction of Hooks in React, functional components were called stateless components and were behind class components on a feature basis. 
+After the introduction of Hooks, functional components are equivalent to class components.
+
+Although functional components are the new trend, the react team insists on keeping class components in React. 
+Therefore, it is important to know how these components differ.
