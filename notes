@@ -26,6 +26,7 @@ JSX provides you to write XML-like syntax in the same file where you write JavaS
 and then preprocessor (i.e., transpilers like Babel) transform these expressions into actual JavaScript code. 
 Just like XML/HTML, JSX tags have a tag name, attributes, and children.
 
- Why can't browsers read JSX?
-Browsers cannot read JSX directly because they can only understand JavaScript objects, and JSX is not a regular JavaScript object. Thus, we need to transform the JSX file into a JavaScript object using transpilers like Babel and then pass it to the browser.
+Why can't browsers read JSX?
+Browsers cannot read JSX directly because they can only understand JavaScript objects, and JSX is not a regular JavaScript object. 
+Thus, we need to transform the JSX file into a JavaScript object using transpilers like Babel and then pass it to the browser.
 
