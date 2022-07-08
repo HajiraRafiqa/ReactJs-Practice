@@ -17,7 +17,7 @@ It has a huge library which takes time to understand.
 It may be difficult for the new programmers to understand and code.
 React uses inline templating and JSX, which may be difficult and act as a barrier. It also makes the coding complex.
 
-JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement( ).
+JSX stands for JavaScript XML. It allows us to write HTML inside JavaScript and place them in the DOM without using functions like appendChild( ) or createElement().
 As stated in the official docs of React, JSX provides syntactic sugar for React.createElement( ) function.
 Note- We can create react applications without using JSX as well.
 JSX stands for JavaScript XML. It is a React extension which allows writing JavaScript code that looks similar to HTML. It makes HTML file easy to understand. 
@@ -30,3 +30,15 @@ Why can't browsers read JSX?
 Browsers cannot read JSX directly because they can only understand JavaScript objects, and JSX is not a regular JavaScript object. 
 Thus, we need to transform the JSX file into a JavaScript object using transpilers like Babel and then pass it to the browser.
 
+ Why we use JSX?
+It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
+Instead of separating technologies by putting markup and logic in separate files, React uses components that contain both.
+t is type-safe, and most of the errors can be found at compilation time.
+It makes easier to create templates.
+
+ What do you understand by Virtual DOM?
+A Virtual DOM is a lightweight JavaScript object which is an in-memory representation of real DOM. 
+It is an intermediary step between the render function being called and the displaying of elements on the screen. 
+It is similar to a node tree which lists the elements, their attributes, and content as objects and their properties. 
+The render function creates a node tree of the React components and then updates this node tree in response to the mutations in the data model 
+caused by various actions done by the user or by the system.
