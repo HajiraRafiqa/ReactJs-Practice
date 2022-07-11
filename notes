@@ -77,3 +77,7 @@ Every component in react has a built-in state object, which contains all the pro
 In other words, the state object controls the behaviour of a component. 
 Any change in the property values of the state object leads to the re-rendering of the component.
 Note- State object is not available in functional components but, we can use React Hooks to add state to a functional component.
+
+React Props
+Every React component accepts a single object argument called props (which stands for “properties”).  
+These props can be passed to a component using HTML attributes and the component accepts these props as an argument.
